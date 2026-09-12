@@ -1,3 +1,7 @@
+![CamarmaRank project cover](assets/showcase/cover.png)
+
+*Concept illustration created for this showcase.*
+
 <div align="center">
 
 # CamarmaRank
@@ -23,10 +27,29 @@ The project focuses on multiplayer car trip competition in Spain.
 | **Experience** | Online multiplayer participation and rankings |
 | **Focus** | Spain |
 
+## Visual overview
+
+![CamarmaRank feature overview](assets/showcase/overview.png)
+
+## High-level workflow
+
+This conceptual overview reflects the project's car trip competition focus.
+
+```mermaid
+flowchart LR
+    A["Car trips in Spain"] --> B["Online participation"]
+    B --> C["Multiplayer competition"]
+    C --> D["Rankings"]
+
+    classDef stage fill:#f1f5f9,stroke:#64748b,color:#0f172a
+    classDef outcome fill:#d1fae5,stroke:#059669,color:#064e3b
+    class A,B,C stage
+    class D outcome
+```
+
 ## About this repository
 
-This repository is the project's **public showcase**. It presents the product and its public
-updates; the application source code remains private.
+This repository is a public showcase. Only presentation material is published; source code and private data remain private.
 
 ## Showcase updates
 
